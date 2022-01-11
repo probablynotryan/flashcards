@@ -1,0 +1,102 @@
+.js-hidden{
+  display: none;
+}
+
+.operators-hidden{
+  display: none;
+}
+
+.variables-hidden{
+  display: none;
+}
+
+.vName-hidden{
+  display: none;
+}
+
+.functions-hidden{
+  display: none;
+}
+
+.methods-hidden{
+  display: none;
+}
+
+.parameters-hidden{
+  display: none;
+}
+
+.return-hidden{
+  display: none;
+}
+
+.chaining-hidden{
+  display: none;
+}
+
+.strings-hidden{
+  display: none;
+}
+
+.booleans-hidden{
+  display: none;
+}
+
+.undefined-hidden{
+  display: none;
+}
+
+.nan-hidden{
+  display: none;
+}
+
+.alert-hidden{
+  display: none;
+}
+
+.comments-hidden{
+  display: none;
+}
+
+.jquery-hidden{
+  display: none;
+}
+
+.attributes-hidden{
+  display: none;
+}
+
+.null-hidden {
+  display: none;
+}
+
+.box {
+  background-color: #f5f5f5;
+  height: 20em;
+  width: 30em;
+  border: 2px solid black;
+  padding: 75px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  padding-top: 140px;
+}
+
+.clickable, .clickable1, .clickable2, .clickable3, .clickable4, .clickable5, .clickable6, .clickable7, .clickable8, .clickable9, .clickable10, .clickable11, .clickable12, .clickable13, .clickable14, .clickable15, .clickable16, .clickable17{
+  cursor: pointer;
+  color: darkred;
+  font-style: bold;
+}
+
+.jumbotron {
+  text-align: center;
+  margin-top: 50px;
+}
+
+body {
+  background-image: url(https://i.natgeofe.com/n/57f411cd-dfe6-41a6-8d40-21ba583eccfb/lake-elsinore-california.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}

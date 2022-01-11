@@ -1,9 +1,164 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    
-  </head>
-  <body>
-
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Flashcards</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Programming Flashcards</h1>
+    </div>
+    <div class="box">
+      <div class="js-hidden">
+        <p>an object-oriented computer programming language commonly used to create interactive effects within browers<br><br><span class="clickable">Flip Card</span></p>
+      </div>
+      <div class="js-showing">
+        <p><span class="clickable">JavaScript</span></p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="operators-hidden">
+        <p>a symbol used to perform operations on values and variables ie: "add" or "subtract"<br><br><span class="clickable1">Flip Card</span></p>
+      </div>
+      <div class="operators-showing">
+        <p><span class="clickable1"> Operators</span></p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="variables-hidden">
+        <p>"named storage" for data<br><br><span class="clickable2">Flip Card</span></p>
+      </div>
+      <div class="variables-showing">
+        <p><span class="clickable2">Variable</span></p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="vName-hidden">
+        <p>a set of rules regarding what's allowed in the name of variables. ie: camelcase, keep it brief, etc<br><br><span class="clickable3"> Flip Card</span></p>
+      </div>
+      <div class="vName-showing">
+        <p><span class="clickable3">Variable naming conventions</span></p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="functions-hidden">
+        <p>a set of statements that performs a task or calculates a value (it should take some input and return an output)<br><br><span class="clickable4"> Flip Card</span></p>
+      </div>
+      <div class="functions-showing">
+        <p><span class="clickable4">Functions</span></p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="methods-hidden">
+        <p>an action that can be performed on objects<br><br><span class="clickable5"> Flip Card</span></p>
+      </div>
+      <div class="methods-showing">
+        <p><span class="clickable5">Methods</span></p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="parameters-hidden">
+        <p>values set to a function<br><br><span class="clickable6"> Flip Card</span></p>
+      </div>
+      <div class="parameters-showing">
+        <p><span class="clickable6">Parameters</span></p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="return-hidden">
+        <p>a declaration to return a value and stop a function<br><br><span class="clickable7"> Flip Card</span></p>
+      </div>
+      <div class="return-showing">
+        <p><span class="clickable7">Return</span></p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="chaining-hidden">
+        <p>a pattern in JavaScript where multiple functions are called on the same object consecutively<br><br><span class="clickable8"> Flip Card</span></p>
+      </div>
+      <div class="chaining-showing">
+        <p><span class="clickable8">Chaining</span></p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="strings-hidden">
+        <p>zero or more (text) characters written inside quotes<br><br><span class="clickable9"> Flip Card</span></p>
+      </div>
+      <div class="strings-showing">
+        <p><span class="clickable9">Strings</span></p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="booleans-hidden">
+        <p>a type of variable that is one of two values: true or false<br><br><span class="clickable10"> Flip Card</span></p>
+      </div>
+      <div class="booleans-showing">
+        <p><span class="clickable10">Strings</span></p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="undefined-hidden">
+        <p>a primitive type of variable that does not have a value<br><br><span class="clickable11"></span></p>
+      </div>
+      <div class="undefined-showing">
+        <p><span class="clickable11">Undefined</span></p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="nan-hidden">
+        <p>stands for "not a number"<br><br><span class="clickable12">Flip Card</span></p>
+      </div>
+      <div class="nan-showing">
+        <p><span class="clickable12">NaN</span></p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="alert-hidden">
+        <p>a method that creates an alert box with a specified message<br><br><span class="clickable13">Flip Card</span></p>
+      </div>
+      <div class="alert-showing">
+        <p><span class="clickable13">Alert</span></p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="comments-hidden">
+        <p>a part of the code that is used for communicating/note-taking and are ignored when the code is run<br><br><span class="clickable14">Flip Card</span></p>
+      </div>
+      <div class="comments-showing">
+        <p><span class="clickable14">Comments</span></p>
+      </div> 
+    </div>
+    <div class="box">
+      <div class="jquery-hidden">
+        <p>a JavaScript library used for helping manipulating objects and variables in Javascript<br><br><span class="clickable15">Flip Card</span></p>
+      </div>
+      <div class="jquery-showing">
+        <p><span class="clickable15">jQuery</span></p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="attributes-hidden">
+        <p>a collection of objects that belong to a built-in Attr class, with name and value properties<br><br><span class="clickable16">Flip Card</span></p>
+      </div>
+      <div class="attributes-showing">
+        <p><span class="clickable16">Attributes</span></p>
+    </div>  
+    </div>
+    <div class="box">
+      <div class="null-hidden">
+        <p>The value null represents the intentional absence of any object value. It is one of JavaScript's primitive values and is treated as falsy for boolean operations.<br><br><span class="clickable17">Flip Card</span></p>
+      </div>
+      <div class="null-showing">
+        <p><span class="clickable17">Null</span></p>
+    </div>  
+    </div>
+  
+</body>
 </html>
